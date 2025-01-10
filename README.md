@@ -99,3 +99,20 @@ select type, title, rating
 from amazon_prime_videos
 where type = 'Movie' and rating = 'UNRATED';
 ```
+# Findings
+From the analysis, the following key findings emerged:
+
+- Genre Popularity: Drama, Comedy, and Thriller are the top genres on Amazon Prime Video, with significant popularity across different regions.
+- Release Year Trends: Amazon Prime has seen an increasing number of content additions, especially in the last few years, with a growing preference for TV shows over movies.
+- Regional Content Distribution: Some countries, such as the United States and India, have a larger variety of movies and TV shows available, with distinct preferences in genres.
+- Content Ratings: Certain genres like Documentaries and Dramas tend to receive higher user ratings compared to others like Action or Horror.
+
+# Conclusions
+The insights gathered from this analysis can guide Amazon Prime’s content acquisition strategy, focusing on the most popular genres and countries with the highest demand.
+There is a clear trend of increasing TV show content in recent years, which may reflect the changing preferences of viewers for long-form content.
+Regional content diversity is a crucial factor in attracting and retaining users, indicating the need for localized content in specific countries.
+
+# Future Work
+Extend the analysis by integrating user reviews and ratings to obtain deeper insights into viewer preferences.
+Perform a comparative analysis between Amazon Prime and other streaming platforms to identify competitive advantages and content gaps.
+Investigate viewer engagement metrics (e.g., views, watch time) to understand which content drives the most user interaction.
