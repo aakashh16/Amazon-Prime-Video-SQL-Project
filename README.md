@@ -12,8 +12,8 @@ The data for this project is sourced from the Kaggle dataset:
 Dataset Link: [Dataset](https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows?resource=download)
 # Business Problems and Solutions
 1. Count the number of Movies VS TV Shows
+```sql
 select type, count(*) as Count
 from amazon_prime_videos
 group by type;
-
-2. 
+ 
